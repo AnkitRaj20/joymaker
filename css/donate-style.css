@@ -1,0 +1,367 @@
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/montserrat/Montserrat-Regular.ttf"); }
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/montserrat/Montserrat-Medium.ttf"); }
+@font-face {
+  font-family: "ElMessiri-SemiBold.ttf";
+  src: url("../fonts/el_messiri/ElMessiri-SemiBold.ttf"); }
+
+.donate-money{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  font-family: "Montserrat-Regular";
+  font-size: 15px;
+  color: #666;
+  margin: 0; }
+
+.donate-money p, h1, h2, h3, h4, h5, h6, ul {
+  margin: 0; }
+
+.donate-money img {
+  max-width: 100%; }
+
+.donate-money ul {
+  padding-left: 0;
+  margin-bottom: 0; }
+
+.donate-money a {
+  text-decoration: none; }
+
+ .donate-money a:hover {
+    text-decoration: none; }
+
+ .donate-money .link {
+      list-style: none;
+      border-bottom: 1px solid #EAEAEA;
+      background-color: #FFF;
+      padding: 10px;
+      margin-top: 0;
+      text-align: center;
+      /* margin-bottom: 75px; */
+  }
+  
+ .donate-money .link a{
+      text-decoration: none;
+      color: #FFF;
+      text-align: left;
+      background-color: #BCB8C2;
+      padding: 10px 16px;
+      border-radius: 2px;
+      opacity: 0.8;
+      font-size: 16px;
+      display: inline-block;
+      margin: 4px;
+      line-height: 1;
+      outline: none;
+      transition: 0.2s ease;
+  }
+  
+ .donate-money .link  li a.active{
+      background-color: #F05283;
+      pointer-events: none;
+  }
+  
+ .donate-money .link  li a:hover {
+      opacity: 1;
+  }
+  
+  
+ .donate-money .link  li{
+      display: inline-block;
+  }
+.donate-money input, textarea, select, button {
+  font-family: "Montserrat-Regular";
+  font-size: 15px;
+  color: #666; }
+
+.donate-money textarea {
+  resize: none; }
+
+.donate-money :focus {
+  outline: none; }
+
+.donate-money .donate-wrapper {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  /* background: url("../images/bg-registration-form-6.jpg") no-repeat center center; */
+  /* background: black; */
+  background-size: cover; 
+}
+
+.donate-money .donate-inner {
+  min-width: 861px;
+  transform: translateX(47px);
+  margin: auto;
+  display: flex;
+  background: #fff;
+  border-radius: 20px;  
+  padding-top: 35px;
+  padding-bottom: 35px;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.4);
+  -ms-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.4); }
+
+.donate-money .donate-image-holder img {
+  border-radius: 15px;
+  transform: translateX(-94px); }
+
+.donate-money form {
+  padding-top: 42px;
+  min-width: 63.88%;
+  transform: translateX(-34px); }
+
+.donate-money h3 {
+  /* font-size: 25px; */
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 21px;
+  color: #333;
+  text-transform: uppercase;
+  font-family: "ElMessiri-SemiBold.ttf"; }
+
+.donate-money .label{
+  padding-left: 10px;
+  color: black;
+  display: flex;
+  text-align: left;
+}
+
+.donate-money .form-control {
+  height: 47px;
+  display: block;
+  border: 1px solid #e6e6e6;
+  background: none;
+  border-radius: 5px;
+  padding: 0 19px; 
+  
+}
+
+  .donate-money .form-control:focus {
+    border: 1px solid #f4d5cc; }
+
+  .donate-money .form-control::-webkit-input-placeholder {
+    color: #999; }
+
+  .donate-money .form-control::-moz-placeholder {
+    color: #999; }
+
+  .donate-money .form-control:-ms-input-placeholder {
+    color: #999; }
+
+  .donate-money .form-control:-moz-placeholder {
+    color: #999; }
+
+
+.donate-money select.form-control {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  color: #999; }
+  select.form-control option[value=""][disabled] {
+    display: none; }
+
+.donate-money textarea.form-control {
+  width: 100%;
+  padding-top: 13px;
+  padding-bottom: 13px; }
+
+.donate-money .donate-form-row {
+  display: flex;
+  margin-bottom: 20px;
+ }
+  
+  .donate-money .donate-form-row .form-control {
+    width: 50%; }
+  
+   /* donate-form-row .form-control:first-child {  */
+    .donate-money .donate-form-row .mar-right {
+      margin-right: 20px; }
+  
+  .donate-money .donate-form-row .form-holder {
+    width: 50%; }
+
+    .donate-money .donate-form-row .form-holder .form-control {
+      width: 100%; }
+
+     .donate-money .donate-form-row .name {
+        width: 100%;
+        margin-right: 0;
+      }
+  
+    /* Form Validation */
+    .donate-money .donate-form-row .error{
+      color: #FF0000;
+    }
+
+
+.donate-money .form-holder {
+  position: relative; }
+  
+  .donate-money .form-holder i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px; }
+    
+
+.donate-money .bttn {
+  height: 47px;
+  width: 174px;
+  display: flex;
+  border: none;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 30px;
+  cursor: pointer;
+  font-family: "Montserrat-Medium";
+  text-transform: uppercase;
+  background: #84cde1;
+  border-radius: 5px;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color; }
+  
+  .donate-money .bttn i {
+    margin-left: 8px;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); }
+ .donate-money .bttn:hover {
+    -webkit-animation-name: hvr-back-pulse;
+    animation-name: hvr-back-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-color: #17c8f8;
+    color: white; }
+   
+   .donate-money .bttn:hover i {
+      -webkit-animation-name: hvr-icon-buzz-out;
+      animation-name: hvr-icon-buzz-out;
+      -webkit-animation-duration: 0.75s;
+      animation-duration: 0.75s;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite; }
+
+@-webkit-keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(32, 152, 209, 0.75); } }
+@keyframes hvr-back-pulse {
+  50% {
+    background-color: rgba(32, 152, 209, 0.75); } }
+@-webkit-keyframes hvr-icon-buzz-out {
+  10% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg); }
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg); }
+  30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg); }
+  40% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg); }
+  50% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg); }
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg); }
+  70% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg); }
+  80% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg); }
+  90% {
+    -webkit-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0); }
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0); } }
+@keyframes hvr-icon-buzz-out {
+  10% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg); }
+  20% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg); }
+  30% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg); }
+  40% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg); }
+  50% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg); }
+  60% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg); }
+  70% {
+    -webkit-transform: translateX(2px) rotate(1deg);
+    transform: translateX(2px) rotate(1deg); }
+  80% {
+    -webkit-transform: translateX(-2px) rotate(-1deg);
+    transform: translateX(-2px) rotate(-1deg); }
+  90% {
+    -webkit-transform: translateX(1px) rotate(0);
+    transform: translateX(1px) rotate(0); }
+  100% {
+    -webkit-transform: translateX(-1px) rotate(0);
+    transform: translateX(-1px) rotate(0); } }
+@media (max-width: 991px) {
+  .donate-money .donate-inner {
+    min-width: auto;
+    max-width: 660px; }
+
+  .donate-money form {
+    padding-top: 0; } }
+@media (max-width: 767px) {
+ .donate-money .donate-inner {
+    display: block;
+    transform: translateX(0);
+    border-radius: 0;
+    box-shadow: none; }
+
+  .donate-money .donate-image-holder img {
+    transform: translateX(0);
+    border-radius: 0; }
+
+  .donate-money form {
+    transform: translateX(0);
+    padding-top: 40px; }
+
+  .donate-money .donate-form-row {
+    display: block; }
+  
+  .donate-money .donate-form-row .form-control, .donate-form-row .form-holder {
+      width: 100%; }
+
+  .donate-money .form-control {
+    margin-bottom: 20px;
+   }
+
+  .donate-money .donate-wrapper {
+    background: none; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,128 @@
+.register {
+  padding: 0;
+  /* margin: 20px; */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  background-color: #fff;
+}
+
+.register .responsive {
+  width: 100%;
+  height: auto;
+}
+
+.register .row .carousel.slide {
+  height: 100%;
+}
+
+.register .row .carousel-inner {
+  height: 100%;
+}
+
+.register .row .carousel-item {
+  height: 100%;
+}
+
+.register .row {
+  background: white;
+  border-radius: 30px;
+  box-shadow: 12px 12px 22px;
+  /* height: 90vh;  */
+  /* margin: 5px; */
+  /* css for image to cover row   */
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  padding: initial;
+
+  /* css for image to cover row */
+}
+
+.register img {
+  margin-left: 0;
+  height: 50vh;
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  object-fit: cover;
+}
+
+.register h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(to right, #f79191 0%, #f70909 100%);
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.register .label {
+  padding-left: 10px;
+  color: black;
+  display: flex;
+  text-align: left;
+}
+
+.register input {
+  /* text-transform: capitalize; */
+  height: 40px;
+  /* border-left: none; */
+  /* border-top: none; */
+  /* border-right: none; */
+  /* width: 90%; */
+  /* border-top: black ; */
+  /* outline: none; */
+  /* border-radius: 60px; */
+  box-shadow: -1px 3px 30px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 3px 30px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 3px 30px -10px rgba(0, 0, 0, 0.75);
+}
+
+.register .form-control:focus {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+  color: #5d9ad6;
+  background-color: #fff;
+  border-color: #80bdff;
+  outline: none;
+}
+    /* .register .btn{
+        width: 30%;
+        background: #fd645b;
+        color: white;
+        text-align: center;
+    }
+    
+    .register .btn:hover{
+        background: brown;
+        transition: 0.5s;
+        color: white;
+    } */
+
+.register .btn {
+  width: 35%;
+  background: #fd645b;
+  color: white;
+  text-align: center;
+}
+
+.register .btn:hover {
+  background: brown;
+  transition: 0.5s;
+  color: white;
+}
+
+.register span {
+  color: red;
+  font-size: 15px;
+}
+
+.form-check-input {
+  display: flex;
+  top: -10px;
+  left: 14px;
+  padding-left: 20px;
+  /* margin-left: 50%; */
+}
