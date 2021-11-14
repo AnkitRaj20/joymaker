@@ -364,38 +364,6 @@ function pin_check() {
         $('#pin').css("border-color", "red");
     }
 
-// Pin validation ends
-
-
-/*
-    if (val.length == '') {
-        $('#pinError').show();
-        $('#pinError').html('Please fill the field');
-        $('#pinError').focus();
-        $('#pinError').css("color", "red");
-        $('#pin').css("border-color", "red");
-        //pin_err = true;
-        //return false;
-    } else if (val.length != 6) {
-  
-        $('#pinError').show();
-        $('#pinError').html('Invalid Pin Code');
-        $('#pinError').focus();
-        $('#pinError').css("color", "red");
-        $('#pin').css("border-color", "red");
-        //pin_err = true;
-        //return false;
-    } else {
-      if (pin === '814112' || pin === '814113') {
-        $('#pinError').hide();
-        $('#pin').css("border-color", "");
-        alert("Welcome! Inside our area.");
-      } else {
-        alert("Sorry! Not in a service area.");
-      }
-    }
-    */
-    
 }
           // Pin validation ends
 

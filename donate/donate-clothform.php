@@ -1,43 +1,3 @@
-		<!-- <section class="donate-money">
-		<ul class="link">
-			<li><a href="donate-money.php" >Donate Money</a></li>
-			<li><a href="donate-food.php">Donate Food</a></li>
-			<li><a href="donate-clothes.php" class="active">Donate Clothes</a></li>
-		</ul>
-		<div class="donate-wrapper">
-			<div class="donate-inner">
-				<div class="donate-image-holder">
-					<img src="images/registration-form-6.jpg" alt="">
-				</div>
-				<form action="">
-					<h3>Make An Appointment(Clothes)</h3>
-					<div class="donate-form-row">
-						<input type="text" class="form-control mar-right" placeholder="Name">
-						<input type="text" class="form-control " placeholder="Mail">
-					</div>
-					<div class="donate-form-row">
-						<input type="text" class="form-control mar-right" placeholder="Phone">
-						<div class="form-holder">
-							<select name="" id="" class="form-control">
-								<option value="" disabled selected>Choose Your Class</option>
-								<option value="class 01">Class 01</option>
-								<option value="class 02">Class 02</option>
-								<option value="class 03">Class 03</option>
-							</select>
-							<i class="zmdi zmdi-chevron-down"></i>
-						</div>
-					</div>
-					<textarea name="" id="" placeholder="Message" class="form-control" style="height: 130px;"></textarea>
-					<button class="bttn">Submit
-						<i class="zmdi zmdi-long-arrow-right"></i>
-					</button>
-				</form>
-				
-			</div>
-		</div>
-
-	</section> -->
-
 	<?php 
   session_start();
 	include("../Connection/config.php");
@@ -65,7 +25,7 @@
 					<h3>Donate Clothes</h3>
 
 					<div class="donate-form-row">
-						<!-- <input type="checkbox" onclick="onclick()" id="state" name="state" class="form-control mar-right" placeholder="State" required /> -->
+						
 						<input type="number" id="pin" name="pin" class="form-control mar-right" placeholder="Pin Code" onblur="cloth()"  required />
             <span class="error" id="pinError"></span>
 					</div>
@@ -74,7 +34,6 @@
 						<!-- <label class="label" for="name">Name</label> -->
 						<input type="text" id="name" name="name" class="form-control name" placeholder="Name" required autofocus/>
             <span class="error" id="nameError"></span>
-						<!-- <input type="text" class="form-control" placeholder="Email"> -->
 					</div>
 					<div class="donate-form-row">
 						<input type="number" id="mobile" name="mobile" class="form-control mar-right" placeholder="Mobile" required />
@@ -88,7 +47,6 @@
 
 					<div class="donate-form-row">
 						<input type="text" id="add" name="add" class="form-control mar-right" placeholder="Address" required />
-						<!-- <input type="text" id="idealFor" name="idealFor" class="form-control " placeholder="Ideal for drpdown" required /> -->
               <select name="idealFor[]" id="idealFor"  class="multiple-select form-control " placeholder="ideal For" multiple size="1" required>
     <!-- <option value="">Gender</option> -->
     <option value="male">Women</option>

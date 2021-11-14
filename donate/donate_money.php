@@ -1,5 +1,5 @@
 <?php  
-    $banner_text="Donate";
+$banner_text="Donate";
 session_start();
 include('../header/topHeader.php');
 include('../header/navbar.php');
@@ -82,10 +82,7 @@ include('../header/downHeader.php');
                         <input  type="text" id="street" class="form-control" name="street"  required>
              </div>
             </div>
-
-            
-
-            <div class="col-md-6">
+      <div class="col-md-6">
             <div class="form-group">
             <label class="label" for="city">City</label>
                         <input  type="text" class="form-control" id="city" name="city"  required autofocus>

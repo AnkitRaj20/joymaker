@@ -1,44 +1,4 @@
 
-		<!-- <section class="donate-money">
-		<ul class="link">
-			<li><a href="donate-money.php" >Donate Money</a></li>
-			<li><a href="donate-food.php" class="active">Donate Food</a></li>
-			<li><a href="donate-clothes.php">Donate Clothes</a></li>
-		</ul>
-		<div class="donate-wrapper">
-			<div class="donate-inner">
-				<div class="donate-image-holder">
-					<img src="images/registration-form-6.jpg" alt="">
-				</div>
-				<form action="">
-					<h3>Make An Appointment(Food)</h3>
-					<div class="donate-form-row">
-						<input type="text" class="form-control mar-right" placeholder="Name">
-						<input type="text" class="form-control" placeholder="Mail">
-					</div>
-					<div class="donate-form-row">
-						<input type="text" class="form-control mar-right" placeholder="Phone">
-						<div class="form-holder">
-							<select name="" id="" class="form-control">
-								<option value="" disabled selected>Choose Your Class</option>
-								<option value="class 01">Class 01</option>
-								<option value="class 02">Class 02</option>
-								<option value="class 03">Class 03</option>
-							</select>
-							<i class="zmdi zmdi-chevron-down"></i>
-						</div>
-					</div>
-					<textarea name="" id="" placeholder="Message" class="form-control" style="height: 130px;"></textarea>
-					<button class="bttn">Submit
-						<i class="zmdi zmdi-long-arrow-right"></i>
-					</button>
-				</form>
-				
-			</div>
-		</div>
-		</section> -->
-
-
 <?php 
   session_start();
 	include("../Connection/config.php");
@@ -95,10 +55,7 @@
 						<!-- <input type="number" id="amt" name="amt" class="form-control mar-right" placeholder="Amount" required /> -->
 						<input type="text" id="type" name="type" class="form-control mar-right" placeholder="Type radio" required />
 
-            <!-- <input type="radio" id="html" name="fav_language" value="HTML">
-  <label for="html">HTML</label><br>
-  <input type="radio" id="css" name="fav_language" value="CSS">
-  <label for="css">CSS</label><br> -->
+            <
 
 						<input type="text" id="add" name="add" class="form-control " placeholder="Address" required />
 					</div>
@@ -106,24 +63,11 @@
 					
 						<input type="text" id="aprxWt" name="aprxWt" class="form-control mar-right" placeholder="Approx Weight  dropdownrange" required />
 
-            <!-- <select name="pets" id="aprxWt" name="aprxWt" class="form-control mar-right" placeholder="Approx Weight" require >
-    <option value="">--Please choose an option--</option>
-    <option value="dog">Dog</option>
-    <option value="cat">Cat</option>
-    <option value="hamster">Hamster</option>
-    <option value="parrot">Parrot</option>
-    <option value="spider">Spider</option>
-    <option value="goldfish">Goldfish</option>
-</select> -->
+            
 					
 						<input type="number" id="noOfItem" name="noOfItem" class="form-control" placeholder="No. Of. Item" required />
 
 					</div>
-
-				
-					<!-- <button type="submit" class="bttn" onclick="pay()">Pay
-						<i class="zmdi zmdi-long-arrow-right"></i>
-					</button> -->
 					<input type="submit" class="bttn" name="submit" id="btn" value="Donate Now" /> <br /><br />
 				</form>
 				

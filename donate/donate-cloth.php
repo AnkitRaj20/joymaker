@@ -1,20 +1,13 @@
 <?php 
 include('../Connection/config.php');
 
-// print_r($_POST['idealFor']);
 $idealFor = array($_POST['idealFor']);
 $ageGrp = array($_POST['ageGrp']);
 $season = array($_POST['season']);
 $idealForEncode = base64_encode(serialize($idealFor));
 $ageGrpEncode = base64_encode(serialize($ageGrp));
 $seasonEncode = base64_encode(serialize($season));
-// echo $idealForEncode."<br />";
-// $decode = unserialize(base64_decode($idealForEncode));
-// print_r($decode);
 
-//  print_r ($ageGrpEncode); 
-//  echo "<br />";
-//  print_r ($seasonEncode); 
 
 echo "<br />";
 
